@@ -4,5 +4,6 @@ ThisBuild / scalaVersion := "3.3.7"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "untitled1"
+    name := "untitled1",
+    Compile / mainClass := Some("runRailway")
   )
