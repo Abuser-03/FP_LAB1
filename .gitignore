@@ -45,3 +45,9 @@ build/
 
 ### Scala ###
 .bsp/
+.bloop/
+.metals/
+.scala-build/
+.idea/
+.vscode/
+*.class
